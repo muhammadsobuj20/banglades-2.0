@@ -22,7 +22,7 @@ nav .logo {
 }
 nav ul li {
   list-style: none;
-   color: #0e0e0e;
+  color: #0e0e0e;
 }
 nav ul li a {
   text-decoration: none;
@@ -53,14 +53,14 @@ ul li a:hover {
   margin: 0 auto;
 }
 
-.banner-desc{
-    font-size: 24px;
-    font-weight: 500;
+.banner-desc {
+  font-size: 24px;
+  font-weight: 500;
 }
 
-.benner-title{
-    font-size: 56px;
-    font-weight: 700;
+.benner-title {
+  font-size: 56px;
+  font-weight: 700;
 }
 
 .banner-content {
@@ -83,4 +83,45 @@ ul li a:hover {
 .btn-banner:hover {
   background-color: #000000;
   color: #fff;
+}
+
+/* card section */
+
+.card-title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-top: 80px;
+  margin-left: 30px;
+  margin-bottom: 0 ;
+}
+
+.card-container {
+  max-width: 1280px;
+  height: 330px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+ gap: 24px;
+ 
+}
+
+.card-content {
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid gray;
+    box-shadow: 0 2px 4px 0;
+    padding: 24px;
+}
+
+.card-info {
+    font-size: 20px;
+    font-weight: 700;
+    color: #0E0E0EB2;
+}
+
+.card-description {
+     font-size: 16px;
+    font-weight: 400;
+    color: #0E0E0EB2;
 }
