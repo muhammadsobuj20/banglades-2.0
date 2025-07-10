@@ -1,5 +1,40 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+    background-color: #F5F5F5;
+  max-width: 1280px;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+nav .logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #0E0E0E;
+   margin-left: 160px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  border: 1px solid #006A50;
+  color: #0E0E0E;
+  padding: 15px 20px;
+  margin-right: 160px;
+  border-radius: 7px;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+ul li a:hover{
+    background-color: #006A50;
+    color: #fff;
 }
