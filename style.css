@@ -329,28 +329,22 @@ main {
   align-items: center;
   border: 1px solid #0e0e0e26;
   padding: 24px;
-  
 }
-
-
 
 select {
   color: #000000;
-  
+
   padding: 10px 14px;
   font-size: 16px;
   font-weight: 500;
   background-color: #c6e4d6;
 }
 
-
-
 /* this is recent-news-section  */
 .recent-news-section {
   width: 1280px;
   height: 1410px;
   margin: 0 auto;
- 
 }
 
 .recent-title {
@@ -368,51 +362,49 @@ select {
   line-height: 100%;
 }
 
- /*  tihs is satelite section */
-.wrapper-satelite{
-width: 1280px;
-height: 405px;
-margin: 0 auto;
-padding: 48PX ;
-display: flex;
-justify-content: center;
-gap: 32PX;
-background-color: #ffffff;
-border-radius: 24PX;
-margin-top: 20px;
+/*  tihs is satelite section */
+.wrapper-satelite {
+  width: 1280px;
+  height: 405px;
+  margin: 0 auto;
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  background-color: #ffffff;
+  border-radius: 24px;
+  margin-top: 20px;
 }
 
-.img-satelite{
-border-radius: 30PX;
+.img-satelite {
+  border-radius: 30px;
 }
 
-.bd-sateline-title{
-font-size: 32PX;
-font-weight: 700;
-column-gap: #0E0E0ECC;
+.bd-sateline-title {
+  font-size: 32px;
+  font-weight: 700;
 }
 
-.date-time{
-font-size: 16px;
+.date-time {
+  font-size: 16px;
   font-weight: 400;
   color: #0e0e0eb2;
- 
 }
 
-.bd-sateline-desc{
-font-size: 16px;
+.bd-sateline-desc {
+  font-size: 16px;
   font-weight: 400;
   color: #0e0e0eb2;
-  line-height: 24PX;
+  line-height: 24px;
 }
 
-.btn-bd-satelite{
+.btn-bd-satelite {
   padding: 20px 30px;
   background-color: #006a50;
-  color: #fff;
+  color: #ffffff;
   margin-top: 15px;
   border-radius: 10px;
-  border: 1px solid #000000;
+  border: 1px solid #0e0e0e26;
   font-size: 24px;
   font-weight: 400;
   margin-top: 32px;
@@ -421,4 +413,148 @@ font-size: 16px;
 .btn-bd-satelite:hover {
   background-color: #000000;
   color: #fff;
+}
+
+/* this is donae today section  */
+.donate-section {
+  width: 1280px;
+  height: 470px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.donate-title {
+  font-size: 40px;
+  font-weight: 700;
+  column-gap: #0e0e0ecc;
+  margin-bottom: 16px;
+}
+
+.donate-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb2;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+
+.wrapper-amount-donate {
+  display: flex;
+  justify-content: space-around;
+  /* align-items: center; */
+  margin: 0 auto;
+  margin-top: 16px;
+}
+
+.tk-100 {
+  background-color: #ffffff;
+  border-radius: 16px;
+  color: #0e0e0ecc;
+  padding: 32px 45px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 40px;
+  border: 1px solid #0e0e0e26;
+}
+
+.tk-100:hover {
+  background-color: #006a50;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.donate-another {
+  background-color: #ffffff;
+  font-size: 20px;
+  font-weight: 400;
+  color: #0e0e0e;
+  padding: 20px 40px;
+  border-radius: 10px;
+  border: 1px solid #0e0e0e26;
+  margin: 0 70px;
+  cursor: pointer;
+}
+
+.donate-another:hover {
+  background-color: #006a50;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-donate {
+  padding: 20px 30px;
+  background-color: #006a50;
+  color: #ffffff;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #0e0e0e26;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.btn-donate:hover {
+  background-color: #000000;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.subscribe-section {
+  width: 1280px;
+  height: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper-subscribe {
+  background-color: #c6e4d6;
+  padding: 80px 100px;
+}
+
+.subscribe-title {
+  font-size: 32px;
+  font-weight: 700;
+  column-gap: #0e0e0ecc;
+  margin-bottom: 16px;
+}
+
+.subscribe-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb2;
+  line-height: 24px;
+  padding: 40px;
+}
+
+.btn-subscribe {
+  padding: 18px;
+  background-color: #006a50;
+  color: #ffffff;
+  border-radius: 0 10px 10px 0;
+  /* border: 1px solid #0e0e0e26; */
+  font-size: 24px;
+  font-weight: 400;
+  margin-right: 10px;
+}
+
+.btn-subscribe:hover {
+  background-color: #e20707;
+  color: #fff;
+  transition: all 0.5s ease-in-out;
+}
+
+.input-subscribe {
+  padding: 18px 40px;
+  /* border: none; */
+  margin-left:15px;
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.spam-desc {
+  font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb2;
+  line-height: 24px;
+  margin-bottom: 16px;
 }
