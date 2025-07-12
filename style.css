@@ -499,6 +499,7 @@ select {
   transition: all 0.5s ease-in-out;
 }
 
+/* this is subscribe news letter */
 .subscribe-section {
   width: 1280px;
   height: 400px;
@@ -519,22 +520,21 @@ select {
 }
 
 .subscribe-desc {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #0e0e0eb2;
   line-height: 24px;
   padding: 40px;
 }
 
+
 .btn-subscribe {
   padding: 18px;
   background-color: #006a50;
   color: #ffffff;
   border-radius: 0 10px 10px 0;
-  /* border: 1px solid #0e0e0e26; */
   font-size: 24px;
   font-weight: 400;
-  margin-right: 10px;
 }
 
 .btn-subscribe:hover {
@@ -543,18 +543,36 @@ select {
   transition: all 0.5s ease-in-out;
 }
 
-.input-subscribe {
-  padding: 18px 40px;
-  /* border: none; */
-  margin-left:15px;
-  font-size: 24px;
-  font-weight: 400;
+.input-button {
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  display: flex;
+  gap: 0;
+  border: none;
 }
 
+.input-subscribe {
+  padding: 18px 40px;
+  border: none;
+  font-size: 24px;
+  font-weight: 400;
+  border-radius: 10px 0 0 10px;
+  border: none;
+}
+
+.input-subscribe:focus {
+  background-color: #006a50;
+  color: #ffffff;
+  border: none;
+}
+
+
 .spam-desc {
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: #0e0e0eb2;
-  line-height: 24px;
+  /* line-height: 24px; */
   margin-bottom: 16px;
+  padding: 30px;
 }
