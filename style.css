@@ -161,7 +161,7 @@ main {
   font-size: 24px;
   font-weight: 400;
   color: #0e0e0eb2;
-  /* margin-bottom: 20px; */
+
 }
 
 .vision-card-container {
@@ -284,4 +284,65 @@ main {
   font-weight: 400;
   color: #0e0e0e99;
   line-height: 24px;
+}
+
+
+/* your opinion sestion  */
+.opinion-section{
+width: 1280px;
+height: 600px;
+margin: 0 auto;
+}
+
+.section-title{
+font-size: 40px;
+font-weight: 700;
+color: #0e0e0e;
+padding: 24px 0;
+}
+.wrapper-opinion{
+background-color: #ffffff;
+padding: 35PX;
+border-radius: 16px;
+}
+
+.qusetions-container{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #C6E4D6;
+padding: 24PX;
+
+}
+
+.question-tilte{
+ color: #0E0E0E;
+ font-size: 20PX;
+ font-weight: 600;
+
+}
+
+.select-title{
+color: #0E0E0E;
+ font-size: 20PX;
+ font-weight: 600;
+}
+
+.option-content{
+display: flex;
+justify-content: space-between;
+align-items: center;
+border: 1px solid #0E0E0E26;
+padding: 24px;
+}
+
+
+select{
+color: #000000;
+/* border: 1px solid #0E0E0E26; */
+padding: 10px 14px;
+font-size: 16px;
+font-weight: 500;
+background-color: #C6E4D6;
+
 }
