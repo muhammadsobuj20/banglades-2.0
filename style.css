@@ -329,19 +329,26 @@ main {
   align-items: center;
   border: 1px solid #0e0e0e26;
   padding: 24px;
+  
 }
+
+
 
 select {
   color: #000000;
-  /* border: 1px solid #0E0E0E26; */
+  
   padding: 10px 14px;
   font-size: 16px;
   font-weight: 500;
   background-color: #c6e4d6;
 }
 
+
+
+/* this is recent-news-section  */
 .recent-news-section {
   width: 1280px;
+  height: 1410px;
   margin: 0 auto;
  
 }
@@ -359,4 +366,59 @@ select {
   font-weight: 400;
   color: #0e0e0eb2;
   line-height: 100%;
+}
+
+ /*  tihs is satelite section */
+.wrapper-satelite{
+width: 1280px;
+height: 405px;
+margin: 0 auto;
+padding: 48PX ;
+display: flex;
+justify-content: center;
+gap: 32PX;
+background-color: #ffffff;
+border-radius: 24PX;
+margin-top: 20px;
+}
+
+.img-satelite{
+border-radius: 30PX;
+}
+
+.bd-sateline-title{
+font-size: 32PX;
+font-weight: 700;
+column-gap: #0E0E0ECC;
+}
+
+.date-time{
+font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb2;
+ 
+}
+
+.bd-sateline-desc{
+font-size: 16px;
+  font-weight: 400;
+  color: #0e0e0eb2;
+  line-height: 24PX;
+}
+
+.btn-bd-satelite{
+  padding: 20px 30px;
+  background-color: #006a50;
+  color: #fff;
+  margin-top: 15px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-size: 24px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+
+.btn-bd-satelite:hover {
+  background-color: #000000;
+  color: #fff;
 }
