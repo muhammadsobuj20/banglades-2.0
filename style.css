@@ -96,6 +96,8 @@ main{
   width: 1600px;
   background-color: #f5f5f5;
   margin: 0 auto;
+  margin-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 /* card section */
@@ -315,12 +317,14 @@ main{
   color: #0e0e0e;
   font-size: 20px;
   font-weight: 600;
+  padding: 0 20px;
 }
 
 .select-title {
   color: #0e0e0e;
   font-size: 20px;
   font-weight: 600;
+  padding: 0 20px;
 }
 
 .option-content {
@@ -333,17 +337,21 @@ main{
 
 select {
   color:#000000;
-  padding: 10px 14px;
+  padding: 16px 18px;
   font-size: 16px;
   font-weight: 500;
   background-color: #c6e4d6;
+  border: none;
+  border-radius: 6px;
 }
+
 
 /* this is recent-news-section  */
 .recent-news-section {
   width: 1280px;
   height: 1410px;
   margin: 0 auto;
+ 
 }
 
 .recent-title {
@@ -373,6 +381,7 @@ select {
   background-color: #ffffff;
   border-radius: 24px;
   margin-top: 20px;
+
 }
 
 .img-satelite {
@@ -576,29 +585,29 @@ select {
 
 /* this is footer section */
 footer {
-  width: 1600px;
+  width: 1280px;
   height: 130px;
   margin: 0 auto;
-  /* padding-top: 70px;
-  margin-top: 300px; */
-}
-
-.wrapper-footer {
-  width: 1280px;
+   text-align: center;
+   width: 1280px;
   background-color: #ffffff;
-  text-align: center;
-  /* padding: 50px 160px; */
+  }
 
-  
-}
 
 hr{
-  border: 1px solid #0e0e0eb2;
-     margin: 0 50px;
+  border: 1px solid #0e0e0e28;
+     
+}
+
+.img-icon-fb{
+  padding: 15px;
+  margin-bottom: 50px;
 }
 
 .footer-title {
   font-size: 45px;
   font-weight: 800;
   color: #000000;
+  padding: 12px;
+ 
 }
